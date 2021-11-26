@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>300</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="mainButton">
+   <property name="geometry">
+    <rect>
+     <x>-2</x>
+     <y>440</y>
+     <width>105</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Главная</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sourceOfIncomeButton">
+   <property name="geometry">
+    <rect>
+     <x>98</x>
+     <y>440</y>
+     <width>105</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Источник
+дохода</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="developmentButton">
+   <property name="geometry">
+    <rect>
+     <x>198</x>
+     <y>440</y>
+     <width>105</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Развитие</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="userLabel">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Олег, 34 года</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="moneyLabel">
+   <property name="geometry">
+    <rect>
+     <x>192</x>
+     <y>30</y>
+     <width>100</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0$</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="healthLabel">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>10</y>
+     <width>112</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Здоровье: 100</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pictureLabel">
+   <property name="geometry">
+    <rect>
+     <x>52</x>
+     <y>90</y>
+     <width>191</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>100</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-family:'SF Pro'; font-size:144pt;&quot;&gt;􀯛&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="energyLabel">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Энергия: 20&lt;span style=&quot; font-family:'SF Pro';&quot;&gt;􀋥&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="warningLabel">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>280</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <zorder>pictureLabel</zorder>
+  <zorder>mainButton</zorder>
+  <zorder>sourceOfIncomeButton</zorder>
+  <zorder>developmentButton</zorder>
+  <zorder>userLabel</zorder>
+  <zorder>moneyLabel</zorder>
+  <zorder>healthLabel</zorder>
+  <zorder>energyLabel</zorder>
+  <zorder>warningLabel</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
